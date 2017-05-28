@@ -49,7 +49,7 @@ class Orasights:
 		strt_date = re.sub('[-]', '', strt_date[2:])
 		end_date = re.sub('[-]', '', end_date[2:])
 
-		# Convert start date to comtel week number.
+		# Convert start date to BARB week number.
 		if strt_date in dates:
 			com_day = dates[strt_date]
 
